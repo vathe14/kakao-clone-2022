@@ -1,3 +1,3 @@
 # Kakao Clone 2022 Update
 
-Skill up CSS!
+Skill up Html & CSS!
