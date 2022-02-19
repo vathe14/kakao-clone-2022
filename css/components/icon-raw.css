@@ -1,0 +1,18 @@
+.icon-raw {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: var(--main-border);
+    margin-top: 20px;
+}
+
+.icon-raw__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons-raw__icon span {
+    font-size: 15px;
+    margin-top: 15px;
+}

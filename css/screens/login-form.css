@@ -1,0 +1,44 @@
+/* class로 바꾸어야함 */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+.login-form__input {
+    border: none;
+    padding: 20px 0px;
+    font-size: 18px;
+    border-bottom: var(--main-border);
+    transition: border-color 0.3s ease-in-out;
+}
+.login-form__input::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+} 
+
+.login-form__input:focus {
+    border-color: rgba(0, 0, 0, 0.6); 
+}
+
+.login-form__input:nth-child(2){
+    margin-bottom: 25px;
+}
+
+.login-form__btn {
+    border: none;
+    margin-bottom: 20px;
+    background-color: var(--yellow);
+    cursor: pointer;
+    font-size: 16px;
+    padding: 20px 0px;
+    border-radius: 5px;
+}
+
+.login-form__a {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+}
+
+
